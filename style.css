@@ -1,0 +1,997 @@
+body {
+   background-color: beige;
+}
+
+#menu {
+   border: 1px SOLID beige;
+   width: 1340px;
+   height: 320px;
+   box-shadow: 2PX 2PX 2PX 2PX slategray;
+
+}
+
+.haut {
+   border: 1px solid white;
+   width: 1340px;
+   height: 50px;
+   background-color: black;
+   box-shadow: 2PX 2PX 2PX 2PX slategray;
+}
+
+.bas {
+   border: 1px solid white;
+   width: 1340px;
+   height: 50px;
+   background-color: beige;
+   margin-top: 50px;
+   box-shadow: 2PX 2PX 2PX 2PX slategray;
+}
+
+.menu1 {
+   margin-left: 60px;
+}
+
+ul li {
+   display: inline-block;
+   margin-left: 5px;
+   color: white;
+}
+
+.menu1 ul li a {
+   text-decoration: none;
+   color: aliceblue;
+}
+
+
+.S1 {
+   border: 1PX solid white;
+   width: 30px;
+   height: 30px;
+   margin-left: 1000px;
+   margin-top: -40px;
+}
+
+.SS1 {
+   border: 1PX solid white;
+   width: 8px;
+   height: 16px;
+   margin-left: 1010px;
+   margin-top: -47px;
+   margin-top: -25px;
+   background-color: black;
+   color: white;
+
+}
+
+.S2 {
+   border: 1PX solid white;
+   width: 30px;
+   height: 30px;
+   margin-left: 1035px;
+   margin-top: -40px;
+   margin-top: -25px;
+}
+
+.SS2 {
+   border: 1PX solid white;
+   width: 8px;
+   height: 16px;
+   margin-left: 1045px;
+   margin-top: -47px;
+   margin-top: -25px;
+   background-color: black;
+   color: white;
+
+}
+
+.S3 {
+   border: 1PX solid white;
+   width: 150px;
+   height: 30px;
+   margin-left: 1070px;
+   margin-top: -40px;
+   margin-top: -25px;
+}
+
+.S3 p {
+   color: azure;
+   margin-left: 14px;
+   margin-top: 5px;
+   font-size: larger;
+}
+
+.SS3 {
+   border: 1PX solid white;
+   width: 40px;
+   height: 30px;
+   margin-left: 1180px;
+   margin-top: -47px;
+   margin-top: -32px;
+   background-color: brown
+}
+
+.milieuT {
+   margin-left: 300px;
+}
+
+.milieuT h1 {
+   color: black;
+   font-size: 50px;
+
+}
+
+.milieuT P {
+   margin-top: -15px;
+   font-size: larger;
+   color: rgb(53, 50, 50);
+}
+
+.milieuLO {
+   border: 1PX SOLID white;
+   width: 140px;
+   height: 140PX;
+   margin-top: -110px;
+   margin-left: 140px;
+   background-image: url("logosT.PNG");
+   border-radius: 20PX 20PX 20PX 20px;
+}
+
+.men1 {
+   border: 1PX SOLID black;
+   width: 150PX;
+   height: 50PX;
+   background-color: rgb(19, 19, 85);
+   margin-top: -2px;
+}
+
+.men2 {
+   border: 1PX SOLID black;
+   width: 100PX;
+   height: 50PX;
+   background-color: rgb(19, 19, 85);
+   margin-left: 153px;
+   margin-top: -52px;
+   list-style-type: none;
+   background-color: brown
+}
+
+.men2 li a {
+   text-align: center;
+   color: aliceblue;
+   margin-top: 20px;
+}
+
+.men2 a {
+   margin-top: 20px;
+   font-size: larger;
+   text-decoration: none;
+   margin-left: 20px;
+}
+
+.men3 {
+   border: 1PX SOLID white;
+   width: 120PX;
+   height: 50PX;
+   background-color: rgb(19, 19, 85);
+   margin-left: 256px;
+   margin-top: -52px;
+   list-style-type: none;
+   background-color: brown;
+}
+
+.men3 li a {
+   text-align: center;
+   color: aliceblue;
+   margin-top: 20px;
+}
+
+.men3 a {
+   margin-top: 20px;
+   font-size: larger;
+   text-decoration: none;
+   margin-left: 20px;
+}
+
+
+.men4 {
+   border: 1PX SOLID white;
+   width: 120PX;
+   height: 50PX;
+   background-color: rgb(19, 19, 85);
+   margin-left: 380px;
+   margin-top: -52px;
+   list-style-type: none;
+   background-color: brown
+}
+
+.men4 li a {
+   text-align: center;
+   color: aliceblue;
+   margin-top: 20px;
+}
+
+.men4 a {
+   margin-top: 20px;
+   font-size: larger;
+   text-decoration: none;
+   margin-left: 20px;
+}
+
+.men5 {
+   border: 1PX SOLID white;
+   width: 150PX;
+   height: 50PX;
+   background-color: rgb(19, 19, 85);
+   margin-left: 504px;
+   margin-top: -52px;
+   list-style-type: none;
+}
+
+.men5 li a {
+   text-align: center;
+   color: aliceblue;
+   margin-top: 20px;
+}
+
+.men5 a {
+   margin-top: 20px;
+   font-size: larger;
+   text-decoration: none;
+   margin-left: 20px;
+}
+
+.men6 {
+   border: 1PX SOLID white;
+   width: 150PX;
+   height: 50PX;
+   background-color: rgb(19, 19, 85);
+   margin-left: 658px;
+   margin-top: -52px;
+   list-style-type: none;
+}
+
+.men6 li a {
+   text-align: center;
+   color: aliceblue;
+   margin-top: 20px;
+}
+
+.men6 a {
+   margin-top: 20px;
+   font-size: larger;
+   text-decoration: none;
+   margin-left: 20px;
+}
+
+.men7 {
+   border: 1PX SOLID white;
+   width: 140PX;
+   height: 50PX;
+   background-color: rgb(19, 19, 85);
+   margin-left: 812px;
+   margin-top: -52px;
+   list-style-type: none;
+   background-color: brown
+}
+
+.men7 li a {
+   text-align: center;
+   color: aliceblue;
+   margin-top: 20px;
+}
+
+.men7 a {
+   margin-top: 20px;
+   font-size: larger;
+   text-decoration: none;
+   margin-left: 20px;
+}
+
+.men8 {
+   border: 1PX SOLID white;
+   width: 140PX;
+   height: 50PX;
+   background-color: rgb(19, 19, 85);
+   margin-left: 956px;
+   margin-top: -52px;
+   list-style-type: none;
+}
+
+.men8 li a {
+   text-align: center;
+   color: aliceblue;
+   margin-top: 20px;
+
+}
+
+.men8 a {
+   margin-top: 20px;
+   font-size: larger;
+   text-decoration: none;
+   margin-left: 20px;
+}
+
+.men9 {
+   border: 1PX SOLID white;
+   width: 240PX;
+   height: 50PX;
+   background-color: rgb(19, 19, 85);
+   margin-left: 1100px;
+   margin-top: -52px;
+}
+
+.partie1 {
+   border: 5px solid brown;
+   width: 1340px;
+   height: 600px;
+   margin-top: -5PX;
+   background-image: url("PHOTOSCAPE.jpg");
+   box-shadow: 2PX 2PX 2PX 2PX slategray;
+}
+
+.bord {
+   border: white solid 1px;
+   width: 500Px;
+   height: 250px;
+   margin-top: 260PX;
+   margin-left: 100px;
+   backface-visibility: visible;
+   border-left: blue;
+   background-color: #ece8e8;
+   border-radius: 0PX 150px 0px 0px;
+   box-shadow: 2PX 2PX 2PX 2PX slategray;
+}
+
+.contenu {
+   margin-top: 35PX;
+   margin-left: 60px;
+
+}
+
+#gauche {
+   border: 1px solid white;
+   width: 400px;
+   height: 3000px;
+   margin-top: 100px;
+   box-shadow: 2PX 2PX 2PX 2PX slategray;
+}
+
+#centre {
+   border: 1px solid white;
+   width: 400px;
+   height: 3000px;
+   margin-top: 100px;
+   margin-left: 920px;
+   margin-top: -3000px;
+   box-shadow: 2PX 2PX 2PX 2PX slategray;
+}
+
+#droite {
+   border: 1px solid white;
+   width: 500px;
+   height: 3000px;
+   margin-top: 100px;
+   margin-left: 410px;
+   margin-top: -3000px;
+   box-shadow: 2PX 2PX 2PX 2PX slategray;
+}
+
+.photo1 {
+   border: 1px solid white;
+   width: 120px;
+   height: 150px;
+   margin-left: 10px;
+   background-image: url("photo1.jpg");
+}
+
+.photo2 {
+   border: 1px solid white;
+   width: 120px;
+   height: 150px;
+   margin-left: 140px;
+   margin-top: -152px;
+   background-image: url("photo2.jpg");
+}
+
+.photo3 {
+   border: 1px solid white;
+   width: 120px;
+   height: 150px;
+   margin-left: 270px;
+   margin-top: -152px;
+   background-image: url("photo3.jpg");
+}
+
+.photo4 {
+   border: 1PX SOLID WHITE;
+   width: 380px;
+   height: 280px;
+   margin-left: 10px;
+   margin-top: 10px;
+   background-image: url("photo4.jpg");
+
+}
+
+.tof1 {
+   border: 1PX solid white;
+   width: 350px;
+   height: 510px;
+   margin-left: 10px;
+   margin-top: 20px;
+   background-image: url("TOF1.jpg");
+}
+
+.Content h3 {
+   color: rgb(106, 106, 236);
+   font-size: larger;
+}
+
+.Content P {
+   color: rgb(20, 20, 20);
+   font-size: large;
+   margin-top: -10px;
+}
+
+.tof2 {
+   border: 1PX solid white;
+   width: 350px;
+   height: 510px;
+   margin-left: 10px;
+   margin-top: 50px;
+   background-image: url("TOF2.jpg");
+}
+
+.tof3 {
+   border: 1PX solid white;
+   width: 350px;
+   height: 510px;
+   margin-left: 10px;
+   margin-top: 50px;
+   background-image: url("TOFT3.jpg");
+}
+
+.tof4 {
+   border: 1PX solid white;
+   width: 350px;
+   height: 510px;
+   margin-left: 10px;
+   margin-top: 50px;
+   background-image: url("TOF4.jpg");
+}
+
+.uuu h4 {
+   color: rgb(68, 26, 26);
+   font-size: 20px;
+   margin-top: 60px;
+}
+
+.uuu p {
+   margin-top: -50PX;
+   margin-left: 40px;
+   font-size: 20px;
+}
+
+.vid1 {
+   border: 1PX SOLID white;
+   width: 380PX;
+   height: 200px;
+   margin-left: 10PX;
+   margin-top: 50px;
+   background-image: url("VID1.jpg");
+
+}
+
+.vid2 {
+   border: 1PX SOLID white;
+   width: 380PX;
+   height: 300px;
+   margin-left: 10PX;
+   margin-top: 50px;
+   background-image: url("VID2.jpg");
+}
+
+.vid3 {
+   border: 1PX SOLID white;
+   width: 380PX;
+   height: 510px;
+   margin-left: 10PX;
+   margin-top: 50px;
+   background-image: url("VID3.jpg");
+}
+
+.vid4 {
+   border: 1PX SOLID white;
+   width: 380PX;
+   height: 510px;
+   margin-left: 10PX;
+   margin-top: 50px;
+   background-image: url("VID4.jpg");
+}
+
+.vid5 {
+   border: 1PX SOLID white;
+   width: 380PX;
+   height: 460px;
+   margin-left: 10PX;
+   margin-top: 50px;
+   background-image: url("VID5.jpg");
+}
+
+.formulaire {
+   margin-left: 800px;
+   margin-top: -60px;
+   width: 350px;
+   top: 50%;
+   left: 50%;
+   box-shadow: 2PX 2PX 2PX 2PX slategray;
+
+}
+
+input {
+   position: relative;
+   display: inline-block;
+   font-size: 20px;
+   box-sizing: border-box;
+   transition: .5s;
+}
+
+input[ type="text"] {
+   background: rgb(194, 190, 190);
+   width: 260px;
+   height: 45px;
+   border: none;
+   outline: none;
+   padding: 0 25px;
+   border-radius: 25px 0 0 25px;
+   color: #ece8e8;
+}
+
+input[ type="submit"] {
+   position: relative;
+   border-radius: 0 25px 25px 0;
+   width: 80px;
+   height: 45px;
+   left: -5px;
+   border: none;
+   outline: none;
+   cursor: pointer;
+   background: rgb(21, 21, 71);
+   color: white;
+}
+
+
+#footter {
+   border: 3PX SOLID brown;
+   width: 100%;
+   height: 120PX;
+   margin-top: 400px;
+   text-align: center;
+   background-color: rgb(36, 36, 83);
+   color: white;
+   box-shadow: 2PX 2PX 2PX 2PX slategray;
+
+}
+
+.foot h4 {
+   margin-top: 40px;
+}
+
+/*STYLE CSS DE LA PAGE APROPOS*/
+
+#apro {
+   border: 5px solid brown;
+   width: 1330px;
+   height: 1000px;
+   border-radius: 0PX 0PX 400px 400px;
+   margin-top: -5px;
+   text-align: center;
+   font-size: 50px;
+   background-image: url("photo4.jpg");
+   background-size: 1500px;
+}
+
+
+#apro h1 {
+   color: rgb(245, 245, 250);
+}
+
+.ap1 {
+   border: 1px solid ;
+   width: 300px;
+   height: 300px;
+   margin-left: 30px;
+   margin-top: 0px;
+   border-radius: 400px 400px 400px 400px;
+   background-image: url("construction.jpg");
+   background-size: 450px;
+   box-shadow: 2PX 2PX 2PX 2PX slategray;
+
+}
+
+.ap2 {
+   border: 1px solid ;
+   width: 300px;
+   height: 300px;
+   margin-left: 500px;
+   margin-top: 20px;
+   border-radius: 400px 400px 400px 400px;
+   background-image: url("electricite.jpg");
+   background-size: 450px;
+   box-shadow: 2PX 2PX 2PX 2PX slategray;
+
+}
+
+.ap3 {
+   border: 1px solid ;
+   width: 300px;
+   height: 300px;
+   margin-left: 30px;
+   margin-top: -20px;
+   margin-left: 900px;
+   margin-top: -650px;
+   border-radius: 400px 400px 400px 400px;
+   background-image: url("téléchargement\ \(1\).jpg");
+   background-size: 450px;
+   box-shadow: 2PX 2PX 2PX 2PX slategray;
+}
+
+.tit {
+   margin-left: 480px;
+   font-size: 30px;
+}
+
+.suite1 {
+   font-size: 20px;
+}
+
+
+.suite2 {
+   border: 1px solid white;
+   width: 700px;
+   height: 540px;
+   margin-left: 620px;
+   margin-top: -930px;
+   background-image: url("afro-american-man-suit-pitching-business-idea-female-colleague-office_1098-20607.jpg");
+   background-size: 700px;
+   box-shadow: 2PX 2PX 2PX 2PX slategray;
+}
+
+#footter1 {
+   border: 3PX SOLID brown;
+   width: 100%;
+   height: 120PX;
+   margin-top: 3650px;
+   text-align: center;
+   background-color: rgb(36, 36, 83);
+   color: white;
+   box-shadow: 2PX 2PX 2PX 2PX slategray;
+
+}
+
+/*Nos formations*/
+
+.Nos{
+   border: 1px solid black;
+   width: 1340PX;
+   height: 500px;
+   background-image: url("two-business-people-top-view_23-2147626405.jpg");
+   background-size: 1250px;
+   background-position: center;
+}
+
+.nos1 h1{
+   font-size:  150px;
+   margin-left: 250px;
+   margin-top: 60px;
+   color: rgb(243, 240, 240);
+}
+
+.titr{
+   text-align: center;
+   font-size: 30px;
+}
+
+.form1{
+   border: 1px SOLID black;
+   width: 300px;
+   height: 500px;
+   background-image: url("couture.jpg");
+   background-size: 300px;
+}
+
+.form1{
+   border: 1px SOLID black;
+   width: 300px;
+   height: 500px;
+   box-shadow: 3PX 3PX 3PX 3PX slategray;
+}
+
+.form2{
+   border: 1px SOLID black;
+   width: 300px;
+   height: 500px;
+   margin-left: 350px;
+   margin-top: -505px;
+   background-image: url("MANA.jpg");
+   box-shadow: 3PX 3PX 3PX 3PX slategray;
+}
+
+.form3{
+   border: 1px SOLID black;
+   width: 300px;
+   height: 500px;
+   margin-left: 700px;
+   margin-top: -505px;
+   background-image: url("MUSIQUE.jpg");
+   background-size: cover;
+   background-position: center;
+   box-shadow: 3PX 3PX 3PX 3PX slategray;
+}
+
+.form4{
+   border: 1px SOLID black;
+   width: 300px;
+   height: 500px;
+   margin-left: 1050px;
+   margin-top: -505px;
+   background-image: url("entr.jpg");
+   background-position: center;
+   box-shadow: 3PX 3PX 3PX 3PX slategray;
+}
+
+.formTit1{
+  text-align: center;
+  font-size: 40px;
+  margin-top: 20px;
+  color: #ece8e8;
+}
+
+.formLien{
+  border: 1px solid black;
+  width: 250px;
+  height: 40px;
+  margin-top: 180px;
+  margin-left: 20px;
+  background-color: black;
+  border-radius: 15PX 15PX 15PX 15px;
+}
+
+.formLien:hover{
+   background-color: brown;
+}
+
+.formLien a{
+ margin-left: 80px;
+ margin-top: 10PX;
+ font-size: 20px;
+ text-decoration: none;
+ color: white;
+ }
+
+ .formTit2{
+   text-align: center;
+   font-size: 40px;
+   margin-top: 20px;
+   color: #ece8e8;
+ }
+ 
+ .formLien2{
+   border: 1px solid black;
+   width: 250px;
+   height: 40px;
+   margin-top: 180px;
+   margin-left: 20px;
+   background-color: black;
+   border-radius: 15PX 15PX 15PX 15px;
+}
+
+ 
+ .formLien2 a{
+  margin-left: 80px;
+  margin-top: 10PX;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+
+  }
+
+  .formLien2:hover{
+   background-color: brown;
+}
+
+  .formTit3{
+   text-align: center;
+   font-size: 40px;
+   margin-top: 20px;
+   color: azure;
+ }
+ 
+ .formLien3{
+   border: 1px solid black;
+   width: 250px;
+   height: 40px;
+   margin-top: 180px;
+   margin-left: 20px;
+   background-color: black;
+   border-radius: 15PX 15PX 15PX 15px;
+}
+
+ 
+ .formLien3 a{
+  margin-left: 80px;
+  margin-top: 10PX;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  }
+
+  .formLien3:hover{
+   background-color: brown;
+}
+
+
+  .formTit4{
+   text-align: center;
+   font-size: 40px;
+   margin-top: 20px;
+   color: white;
+ }
+ 
+ .formLien4{
+   border: 1px solid black;
+   width: 250px;
+   height: 40px;
+   margin-top: 180px;
+   margin-left: 20px;
+   background-color: black;
+   border-radius: 15PX 15PX 15PX 15px;
+}
+ 
+ 
+ .formLien4 a{
+  margin-left: 80px;
+  margin-top: 10PX;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  }
+
+  .formLien4:hover{
+   background-color: brown;
+}
+
+.insc{
+   border: 1PX SOLID black;
+   width: 1300px;
+   height: 60PX;
+   margin-top: 30px;
+   margin-left: 20px;
+   border-radius: 200PX 200PX 200px 200px;
+   text-align: center;
+   background-color: black;
+   cursor: pointer;
+}
+
+.insc:hover{
+   background-color:  brown;
+}
+.insc a{
+   text-decoration: none;
+   font-size: 20px;
+   margin-top: 50px;
+   color: white;
+}
+
+#footter3 {
+   border: 3PX SOLID brown;
+   width: 100%;
+   height: 120PX;
+   margin-top: 50px;
+   text-align: center;
+   background-color: rgb(36, 36, 83);
+   color: white;
+   box-shadow: 2PX 2PX 2PX 2PX slategray;
+
+}
+
+.Nos1{
+   border: 1px solid white;
+   width: 1340PX;
+   height: 500px;
+   background-image: url("MANA.jpg");
+   background-size: 1250px;
+   background-position: center;
+}
+
+.Nos2 h1{
+   font-size:  150px;
+   margin-left: 250px;
+   margin-top: 60px;
+   color: rgb(243, 240, 240);
+}
+
+.Nos2{
+   border: 1px solid white;
+   width: 1340PX;
+   height: 500px;
+   background-image: url("personnes-travaillant-dans-agence-marketing_52683-107671.jpg");
+   background-size: 1250px;
+   background-position: center;
+}
+
+.Nos3 h1{
+   font-size:  150px;
+   margin-left: 250px;
+   margin-top: 60px;
+   color: rgb(243, 240, 240);
+}
+
+.Nos3 p{
+   color: white;
+   font-size: 30px;
+}
+
+.Nos3{
+   border: 1px solid white;
+   width: 1340PX;
+   height: 500px;
+   background-image: url("MANA.jpg");
+   background-size: 1250px;
+   background-position: center;
+}
+
+.Nos4 h1{
+   font-size:  150px;
+   margin-left: 250px;
+   margin-top: 60px;
+   color: rgb(243, 240, 240);
+}
+
+.Nos4 p{
+   color: white;
+   font-size: 30px;
+}
+
+.Nos4{
+   border: 1px solid white;
+   width: 1340PX;
+   height: 500px;
+   background-image: url("young-woman-with-professional-videocamera_112793-1762.jpg");
+   background-size: 1340px;
+   background-position: center;
+}
+
+.Nos5 h1{
+   font-size:  150px;
+   margin-left: 250px;
+   margin-top: 60px;
+   color: rgb(243, 240, 240);
+}
+
+.Nos5 p{
+   color: white;
+   font-size: 30px;
+}
+
+
+.Nos5{
+   border: 1px solid white;
+   width: 1340PX;
+   height: 500px;
+   background-image: url("graphiste-travaillant-au-bureau_107420-81720.jpg");
+   background-size: 1250px;
+   background-position: center;
+}
+
+.Nos6 h1{
+   font-size:  150px;
+   margin-left: 250px;
+   margin-top: 60px;
+   color: rgb(243, 240, 240);
+}
+
+.Nos6 p{
+   color: white;
+   font-size: 30px;
+}
+
